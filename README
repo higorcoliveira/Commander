@@ -1,0 +1,6 @@
+# database
+Need to configure SQL server (use docker)
+docker pull mcr.microsoft.com/mssql/server
+
+# To execute migrations into database
+dotnet ef database update
