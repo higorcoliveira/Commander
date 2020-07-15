@@ -4,3 +4,9 @@ docker pull mcr.microsoft.com/mssql/server
 
 # To execute migrations into database
 dotnet ef database update
+
+# To check for errors
+dotnet build
+
+# To start project
+dotnet run
