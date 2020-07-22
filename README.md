@@ -1,6 +1,8 @@
 # configuring database
-Need to configure SQL server (use docker)
+Configure SQL server using docker
+```
 docker pull mcr.microsoft.com/mssql/server
+```
 
 # commands to execute into database
 ```
@@ -18,10 +20,16 @@ GRANT CREATE ANY DATABASE TO commander;
 ```
 
 # To execute migrations into database
+```
 dotnet ef database update
+```
 
 # To check for errors
+```
 dotnet build
+```
 
 # To start project
+```
 dotnet run
+```
