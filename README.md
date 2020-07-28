@@ -1,5 +1,5 @@
 # configuring database
-Configure SQL server using docker
+Configure SQL server using docker 
 ```
 docker pull mcr.microsoft.com/mssql/server
 ```
